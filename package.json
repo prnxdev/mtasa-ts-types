@@ -1,0 +1,17 @@
+{
+  "name": "mtasa-ts-types",
+  "version": "0.1",
+  "description": "",
+  "keywords": [
+    "mtasa",
+    "lua",
+    "typescript"
+  ],
+  "license": "MIT",
+  "files": [
+    "**/*.d.ts"
+  ],
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
