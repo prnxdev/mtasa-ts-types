@@ -1,1 +1,3 @@
-export interface Player {}
+export interface Player {
+  name: string;
+}

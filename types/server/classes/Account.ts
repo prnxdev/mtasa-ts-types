@@ -1,1 +1,3 @@
-export interface Account {}
+export interface Account {
+  name: string;
+}
