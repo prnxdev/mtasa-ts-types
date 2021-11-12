@@ -1,5 +1,5 @@
-import { Account } from './classes/Account';
-import { Player } from './classes/Player';
+import { Account } from "./classes/Account";
+import { Player } from "./classes/Player";
 
 declare function addAccount(
   username: string,
