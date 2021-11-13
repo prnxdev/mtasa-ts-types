@@ -1,6 +1,8 @@
 /// <reference path='../classes/Account.d.ts' />
 /// <reference path='../classes/Player.d.ts' />
 
+/** @noSelfInFile */
+
 declare function addAccount(
   username: string,
   password: string,
