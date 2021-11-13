@@ -1,3 +1,3 @@
-export interface Player {
+export declare interface Player {
   name: string;
 }
