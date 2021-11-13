@@ -1,1 +1,0 @@
-/// <reference path='./server/account-functions.d.ts' />
