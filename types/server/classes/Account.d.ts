@@ -1,3 +1,3 @@
-export declare interface Account {
+declare interface Account {
   name: string;
 }

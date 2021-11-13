@@ -1,5 +1,5 @@
-import { Account } from "../classes/Account";
-import { Player } from "../classes/Player";
+/// <reference path='../classes/Account.d.ts' />
+/// <reference path='../classes/Player.d.ts' />
 
 declare function addAccount(
   username: string,
