@@ -3,70 +3,70 @@
 
 /** @noSelfInFile */
 
-declare function addAccount(
+export declare function addAccount(
   username: string,
   password: string,
   allowCaseVariations?: boolean
 ): Account | null;
 
-declare function copyAccountData(
+export declare function copyAccountData(
   targetAccount: Account,
   sourceAccount: Account
 ): boolean;
 
-declare function getAccount(
+export declare function getAccount(
   username: string,
   password?: string,
   caseSensitive?: boolean
 ): Account | null;
 
-declare function getAccountData(account: Account, key: string): string | null;
+export declare function getAccountData(account: Account, key: string): string | null;
 
-declare function getAccountName(acount: Account): string | null;
+export declare function getAccountName(acount: Account): string | null;
 
-declare function getAccountPlayer(account: Account): Player | null;
+export declare function getAccountPlayer(account: Account): Player | null;
 
-declare function getAccountSerial(account: Account): string | null;
+export declare function getAccountSerial(account: Account): string | null;
 
-declare function getAccounts(): Account[];
+export declare function getAccounts(): Account[];
 
-declare function getAccountsBySerial(serial: string): Account[];
+export declare function getAccountsBySerial(serial: string): Account[];
 
-declare function getAllAccountData(account: Account): { [key: string]: any };
+export declare function getAllAccountData(account: Account): { [key: string]: any };
 
-declare function getPlayerAccount(player: Player): Account | null;
+export declare function getPlayerAccount(player: Player): Account | null;
 
-declare function isGuestAccount(account: Account): boolean;
+export declare function isGuestAccount(account: Account): boolean;
 
-declare function logIn(
+export declare function logIn(
   player: Player,
   account: Account,
   password: string
 ): boolean;
 
-declare function logOut(player: Player): boolean;
+export declare function logOut(player: Player): boolean;
 
-declare function removeAccount(account: Account): boolean;
+export declare function removeAccount(account: Account): boolean;
 
-declare function setAccountData(
+export declare function setAccountData(
   account: Account,
   key: string,
   value: any
 ): boolean;
 
-declare function setAccountPassword(
+export declare function setAccountPassword(
   account: Account,
   password: string
 ): boolean;
 
-declare function getAccountByID(id: number): Account | null;
+export declare function getAccountByID(id: number): Account | null;
 
-declare function getAccountID(account: Account): number | null;
+export declare function getAccountID(account: Account): number | null;
 
-declare function getAccountIP(account: Account): string | null;
+export declare function getAccountIP(account: Account): string | null;
 
-declare function getAccountsByData(dataName: string, value: string): Account[];
+export declare function getAccountsByData(dataName: string, value: string): Account[];
 
-declare function getAccountsByIP(ip: string): Account[];
+export declare function getAccountsByIP(ip: string): Account[];
 
-declare function setAccountName(account: Account, name: string): boolean;
+export declare function setAccountName(account: Account, name: string): boolean;
