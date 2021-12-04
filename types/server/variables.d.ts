@@ -1,3 +1,5 @@
 /// <reference path='./classes/MTAElement.d.ts' />
 
-declare interface MTARootElement extends MTAElement {}
+declare type MTARootElement = MTAElement;
+
+declare const root: MTARootElement;
