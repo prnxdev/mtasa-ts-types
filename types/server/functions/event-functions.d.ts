@@ -1,5 +1,7 @@
 /// <reference path='../classes/MTAElement.d.ts' />
 
+/** @noSelfInFile */
+
 declare function addEvent(): void;
 declare function addEventHandler(eventName: string, attachedTo: MTAElement, handler: Function, propagate?: boolean, priority?: string): void;
 declare function cancelEvent(): void;
