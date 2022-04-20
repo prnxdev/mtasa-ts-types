@@ -22,7 +22,10 @@ declare function aclGetRight(acl: ACL, rightName: string): boolean;
 
 declare function aclGroupAddACL(aclGroup: ACLGroup, acl: ACL): boolean;
 
-declare function aclGroupAddObject(aclGroup: ACLGroup, objectName: string): boolean;
+declare function aclGroupAddObject(
+  aclGroup: ACLGroup,
+  objectName: string
+): boolean;
 
 declare function aclGroupGetName(aclGroup: ACLGroup): string;
 
@@ -34,7 +37,10 @@ declare function aclGroupListObjects(aclGroup: ACLGroup): string[];
 
 declare function aclGroupRemoveACL(aclGroup: ACLGroup, acl: ACL): boolean;
 
-declare function aclGroupRemoveObject(aclGroup: ACLGroup, objectString: string): boolean;
+declare function aclGroupRemoveObject(
+  aclGroup: ACLGroup,
+  objectString: string
+): boolean;
 
 declare function aclList(): ACL[];
 
@@ -46,8 +52,19 @@ declare function aclRemoveRight(acl: ACL, rightName: string): boolean;
 
 declare function aclSave(): void;
 
-declare function aclSetRight(acl: ACL, rightName: string, hasAccess: boolean): boolean;
+declare function aclSetRight(
+  acl: ACL,
+  rightName: string,
+  hasAccess: boolean
+): boolean;
 
-declare function hasObjectPermissionTo(object: MTAElement | string, action: string, defaultPermission?: boolean): boolean;
+declare function hasObjectPermissionTo(
+  object: MTAElement | string,
+  action: string,
+  defaultPermission?: boolean
+): boolean;
 
-declare function isObjectInACLGroup(objectName: string, group: ACLGroup): boolean;
+declare function isObjectInACLGroup(
+  objectName: string,
+  group: ACLGroup
+): boolean;

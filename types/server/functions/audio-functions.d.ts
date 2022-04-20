@@ -2,6 +2,4 @@
 
 /** @noSelfInFile */
 
-// bool playSoundFrontEnd ( player thePlayer, int sound )   
-
 declare function playSoundFrontEnd(player: Player, sound: number): boolean;
