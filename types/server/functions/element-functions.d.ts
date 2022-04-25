@@ -47,10 +47,9 @@ declare function getAttachedElements(element: MTAElement): MTAElement[];
 
 declare function getElementAlpha(element: MTAElement): number;
 
-/** @tupleReturn */
 declare function getElementAttachedOffsets(
   element: MTAElement
-): [number, number, number, number, number, number];
+): LuaMultiReturn<[number, number, number, number, number, number]>;
 
 declare function getElementAttachedTo(
   element: MTAElement
@@ -102,25 +101,22 @@ declare function getElementModel(element: MTAElement): number;
 
 declare function getElementParent(element: MTAElement): MTAElement | undefined;
 
-/** @tupleReturn */
 declare function getElementPosition(
   element: MTAElement
-): [number, number, number];
+): LuaMultiReturn<[number, number, number]>;
 
-/** @tupleReturn */
 declare function getElementRotation(
   element: MTAElement,
   order?: RotationOrder
-): [number, number, number];
+): LuaMultiReturn<[number, number, number]>;
 
 declare function getElementSyncer(element: MTAElement): MTAElement | undefined;
 
 declare function getElementType(element: MTAElement): string;
 
-/** @tupleReturn */
 declare function getElementVelocity(
   element: MTAElement
-): [number, number, number];
+): LuaMultiReturn<[number, number, number]>;
 
 declare function getElementZoneName(
   element: MTAElement,
@@ -209,10 +205,9 @@ declare function setElementAngularVelocity(
   rz: number
 ): void;
 
-/** @tupleReturn */
 declare function getElementAngularVelocity(
   element: MTAElement
-): [number, number, number];
+): LuaMultiReturn<[number, number, number]>;
 
 declare function setElementAttachedOffsets(
   element: MTAElement,

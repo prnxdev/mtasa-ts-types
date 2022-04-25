@@ -30,8 +30,9 @@ declare function createBlipAttachedTo(
   visibleTo?: MTAElement
 ): Blip;
 
-/** @tupleReturn */
-declare function getBlipColor(blip: Blip): [number, number, number, number];
+declare function getBlipColor(
+  blip: Blip
+): LuaMultiReturn<[number, number, number, number]>;
 
 declare function getBlipIcon(blip: Blip): BlipIcon;
 

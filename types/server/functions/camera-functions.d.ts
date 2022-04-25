@@ -3,7 +3,6 @@
 
 /** @noSelfInFile */
 
-// ( player thePlayer, bool fadeIn, [ float timeToFade = 1.0, int red = 0, int green = 0, int blue = 0 ] )
 declare function fadeCamera(
   player: Player,
   fadeIn: boolean,
@@ -15,10 +14,11 @@ declare function fadeCamera(
 
 declare function getCameraInterior(player: Player): number;
 
-/** @tupleReturn */
 declare function getCameraMatrix(
   player: Player
-): [number, number, number, number, number, number, number, number];
+): LuaMultiReturn<
+  [number, number, number, number, number, number, number, number]
+>;
 
 declare function getCameraTarget(player: Player): MTAElement;
 
