@@ -30,9 +30,7 @@ declare function createBlipAttachedTo(
   visibleTo?: MTAElement
 ): Blip;
 
-/**
- * @tupleReturn
- */
+/** @tupleReturn */
 declare function getBlipColor(blip: Blip): [number, number, number, number];
 
 declare function getBlipIcon(blip: Blip): BlipIcon;

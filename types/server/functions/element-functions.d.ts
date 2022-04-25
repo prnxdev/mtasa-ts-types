@@ -47,9 +47,7 @@ declare function getAttachedElements(element: MTAElement): MTAElement[];
 
 declare function getElementAlpha(element: MTAElement): number;
 
-/**
- * @tupleReturn
- */
+/** @tupleReturn */
 declare function getElementAttachedOffsets(
   element: MTAElement
 ): [number, number, number, number, number, number];

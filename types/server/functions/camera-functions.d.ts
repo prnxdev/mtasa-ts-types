@@ -15,9 +15,7 @@ declare function fadeCamera(
 
 declare function getCameraInterior(player: Player): number;
 
-/**
- * @tupleReturn
- */
+/** @tupleReturn */
 declare function getCameraMatrix(
   player: Player
 ): [number, number, number, number, number, number, number, number];

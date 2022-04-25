@@ -5,9 +5,7 @@
 
 declare function getBodyPartName(bodyPart: BodyPart): string;
 
-/**
- * @tupleReturn
- */
+/** @tupleReturn */
 declare function getClothesByTypeIndex(
   clothesType: ClothesType,
   index: number
@@ -15,9 +13,7 @@ declare function getClothesByTypeIndex(
 
 declare function getClothesTypeName(clothesType: ClothesType): string;
 
-/**
- * @tupleReturn
- */
+/** @tupleReturn */
 declare function getTypeIndexFromClothes(
   clothesTexture: string,
   clothesModel: string
