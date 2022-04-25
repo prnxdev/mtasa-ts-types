@@ -1,1 +1,1 @@
-declare interface Marker {}
+declare abstract class Marker {}

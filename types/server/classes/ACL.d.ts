@@ -1,1 +1,1 @@
-declare interface ACL {}
+declare abstract class ACL {}

@@ -1,3 +1,3 @@
-declare interface Account {
+declare abstract class Account {
   name: string;
 }

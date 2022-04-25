@@ -1,1 +1,1 @@
-declare interface MTAElement {}
+declare abstract class MTAElement {}

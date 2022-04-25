@@ -1,1 +1,1 @@
-declare interface ACLGroup {}
+declare abstract class ACLGroup {}

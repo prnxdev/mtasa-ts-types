@@ -1,1 +1,1 @@
-declare interface ColShape {}
+declare abstract class ColShape {}

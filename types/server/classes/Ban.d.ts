@@ -1,1 +1,1 @@
-declare interface Ban {}
+declare abstract class Ban {}

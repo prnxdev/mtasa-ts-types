@@ -1,1 +1,1 @@
-declare interface Blip {}
+declare abstract class Blip {}
