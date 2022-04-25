@@ -11,8 +11,10 @@
   "files": [
     "**/*.d.ts"
   ],
-  "devDependencies": {
-    "prettier": "^2.4.1",
+  "dependencies": {
     "typescript-to-lua": "^1.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
   }
 }
