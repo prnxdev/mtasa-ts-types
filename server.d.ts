@@ -7,6 +7,7 @@
 /// <reference path='./types/server/functions/camera-functions.d.ts' />
 /// <reference path='./types/server/functions/clothes-and-body-functions.d.ts' />
 /// <reference path='./types/server/functions/cursor-functions.d.ts' />
+/// <reference path='./types/server/functions/element-functions.d.ts' />
 /// <reference path='./types/server/functions/event-functions.d.ts' />
 
 /// <reference path='./types/server/functions/utility-functions.d.ts' />
