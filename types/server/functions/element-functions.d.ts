@@ -125,10 +125,10 @@ declare function getElementZoneName(
   citiesOnly?: boolean
 ): string;
 
-declare function getElementsByType(
+declare function getElementsByType<T = MTAElement>(
   type: string,
   startAt?: MTAElement
-): MTAElement[];
+): T[];
 
 declare function getElementsWithinColShape(
   colShape: ColShape,
