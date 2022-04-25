@@ -5,6 +5,8 @@
 /// <reference path='../classes/MTAElement.d.ts' />
 /// <reference path='../../shared/enums/RotationOrder.d.ts' />
 
+/** @noSelfInFile */
+
 declare function addElementDataSubscriber(
   element: MTAElement,
   key: string,
