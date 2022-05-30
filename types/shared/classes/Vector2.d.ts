@@ -1,5 +1,6 @@
 /** @noSelfInFile */
 
+/** @customConstructor Vector2 */
 declare class Vector2 {
   public x: number;
   public y: number;
