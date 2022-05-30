@@ -1,3 +1,5 @@
+/** @noSelfInFile */
+
 declare function addEventHandler(
   eventName: string,
   attachedTo: MTAElement,
