@@ -1,4 +1,4 @@
-/// <reference path='./classes/MTAElement.d.ts' />
+/// <reference path='../server/classes/MTAElement.d.ts' />
 
 declare type MTARootElement = MTAElement;
 

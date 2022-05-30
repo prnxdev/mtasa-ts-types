@@ -21,4 +21,4 @@
 /// <reference path='./types/server/functions/event-functions.d.ts' />
 
 /// <reference path='./types/server/functions/utility-functions.d.ts' />
-/// <reference path='./types/server/variables.d.ts' />
+/// <reference path='./types/shared/variables.d.ts' />
