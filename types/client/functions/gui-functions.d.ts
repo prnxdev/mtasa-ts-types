@@ -2,4 +2,4 @@
 
 /** @noSelfInFile */
 
-declare function guiGetScreenSize(): Vector2;
+declare function guiGetScreenSize(): LuaMultiReturn<[number, number]>;
