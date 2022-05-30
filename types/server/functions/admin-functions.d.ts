@@ -1,6 +1,6 @@
 /// <reference path="../classes/Ban.d.ts" />
 /// <reference path="../classes/Player.d.ts" />
-/// <reference path="../variables.d.ts" />
+/// <reference path="../../shared/variables.d.ts" />
 
 /** @noSelfInFile */
 
